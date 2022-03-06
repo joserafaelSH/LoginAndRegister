@@ -1,5 +1,5 @@
 # LoginAndRegister
-Login and register app
+#Login and register app
 ReactJS (stateless component)
 Html/Css
 NodeJs/Express/Cors - server 
