@@ -34,8 +34,6 @@ class App extends Component {
 
   render(){
 
-
-
     const validationLogin =  yup.object().shape({
       email: yup.string().email("Email invalido").required(),
       password: yup.string().required().min(8,"A senha deve ter ao menos 8 caracteres"),
@@ -53,10 +51,9 @@ class App extends Component {
             validationSchema = {validationLogin} >
         </Login>
   
-        <Register initialValues={{}}
+        <Register initialValues={{ }}
             onSubmit ={this.handleClickRegister}
             validationSchema = {validationRegister}>
-
         </Register>
         
       </div>

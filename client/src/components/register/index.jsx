@@ -7,7 +7,7 @@ import './styles.css'
 export const Register = ({initialValues,onSubmit,validationSchema}) =>{
     return (
         <div>
-        <h1>Login</h1>
+        <h1>Register</h1>
           <Formik
             initialValues={initialValues}
             onSubmit ={onSubmit}
@@ -15,8 +15,9 @@ export const Register = ({initialValues,onSubmit,validationSchema}) =>{
           >
             <Form className="login-form">
                 <Login_form_group name="email" placeholder="Email" component="span" ></Login_form_group>
-                <Login_form_group name="password" placeholder="Senha" component="span" ></Login_form_group>
-                <Button type="Login"></Button>
+                <Login_form_group name="password" placeholder="Senha" component="span" type="password" ></Login_form_group>
+                <Login_form_group name="confirmPassword" placeholder="Confirme sua senha" component="span" type="password" ></Login_form_group>
+                <Button type="Register"></Button>
             </Form>
     
           </Formik>

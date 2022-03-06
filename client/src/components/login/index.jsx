@@ -14,8 +14,8 @@ export const Login = ({initialValues,onSubmit,validationSchema}) =>{
             validationSchema = {validationSchema}
           >
             <Form className="login-form">
-                <Login_form_group name="email" placeholder="Email" component="span" ></Login_form_group>
-                <Login_form_group name="password" placeholder="Senha" component="span" ></Login_form_group>
+                <Login_form_group name="email" placeholder="Email" component="span " ></Login_form_group>
+                <Login_form_group name="password" placeholder="Senha" component="span" type="password" ></Login_form_group>
                 <Button type="Login"></Button>
             </Form>
     
