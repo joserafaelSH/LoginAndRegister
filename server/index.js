@@ -67,6 +67,6 @@ app.post("/login",(req,res)=>{
     } 
 )})
 
-app.listen(3003, ()=>{
-    console.log("Rodando na porta 3003");
+app.listen(3001, ()=>{
+    console.log("Rodando na porta 3001");
 });
